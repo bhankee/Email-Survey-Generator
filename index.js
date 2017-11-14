@@ -23,7 +23,7 @@ app.use(passport.session());
 require("./routes/authRoutes")(app);
 
 app.get("/", (req, res) => {
-  res.send({ hi: "Brad" });
+  res.send({ hi: "Dude" });
 });
 
 const PORT = process.env.PORT || 5000;
